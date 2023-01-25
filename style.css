@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    margin: 2px;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    margin: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.quotes
+{
+    padding-left: 15px;
+    text-align: left;
+    font-family: system-ui;
+}
+h2{
+    color: palevioletred;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+.bio{
+    background-color: black;
+    color: wheat;
+}
+p{
+    display: block;
+    margin-top: 8px 6px 4px 3px;
+    padding: 8px 6px 4px 3px;
+    font-family: cursive;
+}
+
+footer{
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer;
+    font-family: cursive;
+}
